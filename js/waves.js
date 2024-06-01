@@ -131,3 +131,9 @@ function render() {
    // This increases or decreases speed
    count += 0.1;
 }
+
+function enableDarkModeOnStart() {
+   toggleDarkModeForWaves();
+}
+
+enableDarkModeOnStart();

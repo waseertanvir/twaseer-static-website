@@ -35,3 +35,8 @@ function toggleIcon() {
     }
 }
 
+function enableDarkModeOnStart() {
+    toggleIcon()
+}
+
+enableDarkModeOnStart();
