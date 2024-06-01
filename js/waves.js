@@ -27,6 +27,18 @@ var windowHalfY = window.innerHeight / 2;
 init();
 animate();
 
+var backgroundColor = 0xffffff;
+
+function toggleDarkModeForWaves() {
+   if(backgroundColor == 0xffffff) {
+      backgroundColor = 0x1F1F1F;
+      renderer.setClearColor(backgroundColor, 1);
+   } else {
+      backgroundColor = 0xffffff;
+      renderer.setClearColor(backgroundColor, 1);
+   }
+}
+
 function init() {
 
    container = document.createElement('div');
