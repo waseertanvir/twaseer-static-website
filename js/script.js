@@ -25,14 +25,13 @@ function toggleIcon() {
     let isMoonFilled = false; // Flag to track the state of the moon icon
 
     // Function to toggle the icon
-    function toggleIcon() {
-        if (isMoonFilled) {
-            toggleBtn.innerHTML = moonIcon; // Change to outlined moon icon
-        } else {
-            toggleBtn.innerHTML = moonFillIcon; // Change to filled moon icon
-        }
-        isMoonFilled = !isMoonFilled; // Toggle the flag
+
+    if (isMoonFilled) {
+        toggleBtn.innerHTML = moonIcon; // Change to outlined moon icon
+    } else {
+        toggleBtn.innerHTML = moonFillIcon; // Change to filled moon icon
     }
+    isMoonFilled = !isMoonFilled; // Toggle the flag
 }
 
 function enableDarkModeOnStart() {
