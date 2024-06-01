@@ -12636,3 +12636,14 @@ canvas {
   background-color: #1F1F1F;
   color: #fff;
 }
+
+.icon-btn {
+    border: none;
+    background: none;
+    padding: 0; /* Remove padding */
+    cursor: pointer;
+}
+.bi {
+  width: 32px; /* Set the width of the SVG */
+  height: 32px; /* Set the height of the SVG */
+}
